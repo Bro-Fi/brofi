@@ -170,6 +170,27 @@ hr {
   color: #C420E9;
 }
 
+.custom-icon {
+  background-color: #C420E9;
+  border-radius: 100%;
+  height: 1.95rem;
+  width: 1.95rem;
+  padding: 0.15rem;
+  margin-bottom: 0.85rem;
+}
+
+.env-icon {
+  margin-right: 0.25rem;
+}
+
+.custom-icon:hover {
+  background-color: #D86AF0;
+}
+
+.custom-footer-link {
+  margin: auto 0.9375rem;
+}
+
 .btn-contact {
   margin-top: 3%;
   border-color: #C420E9;
@@ -184,6 +205,6 @@ hr {
 
 .copyright {
   margin-top: 20px;
-  color: #EAF6F6;
+  color: #29bfd6;
   font-size: 0.75rem;
 }
