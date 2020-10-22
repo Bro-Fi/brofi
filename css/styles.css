@@ -1,15 +1,14 @@
 body {
-  margin: 0px;
+  margin: 0;
   text-align: center;
   font-family: 'Comfortaa', serif;
   color: #29d5eb;
   background-color: #1b1737;
-  /* background-color: white; */
   font-size: 1em;
-  /* background-image: url("../images/brofi bg.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
+}
+
+h2, h3, a {
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
@@ -21,7 +20,6 @@ h1 {
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   font-weight: 600;
   color: #C420E9;
@@ -30,7 +28,6 @@ h2 {
 h3 {
   font-size: 1.5rem;
   font-weight: normal;
-  font-family: 'Montserrat', sans-serif;
   color: #29bfd6;
 }
 
@@ -38,7 +35,6 @@ a {
   color: #AA14CC;
   text-decoration: none;
   margin: auto 15px auto 15px;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   target: "_blank";
   rel:"noreferrer noopener";
@@ -51,14 +47,7 @@ hr {
   margin: 100px auto 100px auto;
 }
 
-.bg-container-img {
-  object-fit: contain;
-  /* position: absolute; */
-  top: 0px;
-  margin: 0 auto 0 auto;
-  width: 100%;
-}
-
+/* Overarching Containers */
 .top-container {
   margin: auto;
   padding-bottom: 100px;
@@ -78,6 +67,8 @@ hr {
   /* background-color: #1b1737; */
   line-height: 2.5;
 }
+
+/* Top Container Elements */
 
 .bot-cloud {
   position: absolute;
@@ -99,16 +90,7 @@ hr {
   margin: -50px auto -70px auto;
 }
 
-.skill-row {
-  margin: 100px auto 100px auto;
-  text-align: left;
-  width: 70%;
-  line-height: 2;
-}
-
-.skills {
-  margin: auto;
-}
+/* Profile Elements */
 
 .profile {
   width: 50%;
@@ -122,31 +104,57 @@ hr {
   margin-bottom: 50px;
 }
 
-.mountain-img {
-  margin: 0 0 0 0;
+/* Episode Elements */
+
+.epi-row {
+  margin: 5rem auto 5rem auto;
+  text-align: center;
+  width: 80%;
+  line-height: 2;
+}
+
+.episodes {
+  margin: auto;
 }
 
 .ep-img {
   width: 175px;
   height: 175px;
   border-radius: 100%;
-  float: left;
-  margin-right: 30px;
 }
 
 .ep-desc {
   clear: inherit;
 }
 
+.img-col {
+  text-align: center;
+  padding: 3% 5%;
+}
+
+.desc-col {
+  text-align: left;
+  padding: 3% 5%;
+}
+
+@media (max-width: 990px) {
+  .desc-col {
+    text-align: center;
+  }
+}
+
 .ep-title {
   font-weight: 300;
   color: #C420E9;
-  margin: auto auto 0 auto;
+  margin: auto auto 1rem auto;
 }
 
 .ep-title:hover {
+  text-decoration: none;
   color: #D86AF0;
 }
+
+/* Contact and Footer Section */
 
 .contact-me {
   margin: 40px auto 60px auto;
@@ -155,6 +163,7 @@ hr {
 }
 
 .footer-link:hover {
+  text-decoration: none;
   color: #C420E9;
 }
 
