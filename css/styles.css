@@ -37,7 +37,8 @@ a {
   margin: auto 15px auto 15px;
   font-weight: 600;
   target: "_blank";
-  rel:"noreferrer noopener";
+  /* this forces link to open in new tab */
+  rel: "noreferrer noopener";
 }
 
 hr {
@@ -50,26 +51,23 @@ hr {
 /* Overarching Containers */
 .top-container {
   margin: auto;
-  padding-bottom: 100px;
-  padding-top: 200px;
-  /* background-color: #1b1737; */
+  padding-bottom: 7%;
+  padding-top: 15%;
 }
 
 .middle-container {
-  margin: 100px auto 100px auto;
+  margin: 7% auto;
   line-height: 2;
 }
 
 .bottom-container {
   margin: 0;
-  padding-bottom: 50px;
-  padding-top: 50px;
-  /* background-color: #1b1737; */
+  padding-bottom: 3%;
+  padding-top: 3%;
   line-height: 2.5;
 }
 
 /* Top Container Elements */
-
 .bot-cloud {
   position: absolute;
   opacity: 0.5;
@@ -91,7 +89,6 @@ hr {
 }
 
 /* Profile Elements */
-
 .profile {
   width: 50%;
   margin: 50px auto 50px auto;
@@ -104,8 +101,11 @@ hr {
   margin-bottom: 50px;
 }
 
-/* Episode Elements */
+.profile-header {
+  margin: 3% auto;
+}
 
+/* Episode Elements */
 .epi-row {
   margin: 5rem auto 5rem auto;
   text-align: center;
@@ -155,11 +155,14 @@ hr {
 }
 
 /* Contact and Footer Section */
-
 .contact-me {
   margin: 40px auto 60px auto;
   line-height: 2;
   width: 50%;
+}
+
+.contact-header {
+  margin-bottom: 3%;
 }
 
 .footer-link:hover {
@@ -167,38 +170,16 @@ hr {
   color: #C420E9;
 }
 
-.contact-btn {
-  background: #3DCBF6;
-  background-image: -webkit-linear-gradient(top, #3DCBF6, #1EA6D0);
-  background-image: -moz-linear-gradient(top, #3DCBF6, #1EA6D0);
-  background-image: -ms-linear-gradient(top, #3DCBF6, #1EA6D0);
-  background-image: -o-linear-gradient(top, #3DCBF6, #1EA6D0);
-  background-image: -webkit-gradient(to bottom, #3DCBF6, #1EA6D0);
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 8px;
-  color: #FFFFFF;
-  font-size: 14px;
-  font-weight: 400;
-  padding: 5px 15px 5px 15px;
-  margin: 15px auto 10px auto;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-  text-align: center;
+.btn-contact {
+  margin-top: 3%;
+  border-color: #C420E9;
+  color: #C420E9;
 }
 
-.contact-btn:hover {
-  background: #1EAFD0;
-  background-image: -webkit-linear-gradient(top, #1EAFD0, #3D7DF6);
-  background-image: -moz-linear-gradient(top, #1EAFD0, #3D7DF6);
-  background-image: -ms-linear-gradient(top, #1EAFD0, #3D7DF6);
-  background-image: -o-linear-gradient(top, #1EAFD0, #3D7DF6);
-  background-image: -webkit-gradient(to bottom, #1EAFD0, #3D7DF6);
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 8px;
-  text-decoration: none;
+.btn-contact:hover {
+  background-color: #D86AF0;
+  color: black;
+  border-color: #D86AF0;
 }
 
 .copyright {
