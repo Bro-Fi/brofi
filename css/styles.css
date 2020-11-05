@@ -135,6 +135,7 @@ hr {
 .desc-col {
   text-align: left;
   padding: 3% 5%;
+  margin-top: 1rem;
 }
 
 @media (max-width: 990px) {
