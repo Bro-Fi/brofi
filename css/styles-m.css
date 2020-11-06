@@ -160,6 +160,20 @@ hr {
   margin-bottom: 3%;
 }
 
+.btn-contact {
+  margin-top: 3%;
+  border-color: #C420E9;
+  color: #C420E9;
+}
+
+.btn-contact:hover {
+  background-color: #D86AF0;
+  color: black;
+  border-color: #D86AF0;
+}
+
+/* Footer Buttons */
+
 .footer-link:hover {
   text-decoration: none;
   color: #D86AF0;
@@ -184,18 +198,6 @@ hr {
 
 .custom-footer-link {
   margin: auto 0.9375rem;
-}
-
-.btn-contact {
-  margin-top: 3%;
-  border-color: #C420E9;
-  color: #C420E9;
-}
-
-.btn-contact:hover {
-  background-color: #D86AF0;
-  color: black;
-  border-color: #D86AF0;
 }
 
 .copyright {
@@ -246,7 +248,7 @@ hr {
   }
 
   .desc-col {
-    padding: 3% 0% 3% 0%;
+    padding: 3% 0;
     margin: auto;
   }
   .img-col {
