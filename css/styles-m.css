@@ -60,8 +60,10 @@ hr {
   line-height: 2;
 }
 
-.bottom-container {
+.bottom-container, .bottom-container-m {
   margin: 0;
+  margin-left: auto;
+  margin-right: auto;
   padding-bottom: 3%;
   padding-top: 3%;
   line-height: 2.5;
@@ -174,6 +176,7 @@ hr {
 
 /* Footer Buttons */
 
+
 .footer-link:hover {
   text-decoration: none;
   color: #D86AF0;
@@ -215,6 +218,10 @@ hr {
 
   .ep-title, .ep-img{
     pointer-events: all;
+  }
+
+  .bottom-container-m {
+    visibility: collapse;
   }
 }
 
@@ -267,6 +274,16 @@ hr {
 
   .ep-desc {
     display: none;
+  }
+
+  .bottom-container {
+    visibility: collapse;
+  }
+
+  .custom-icon {
+    height: 2.925rem;
+    width: 2.925rem;
+    margin-bottom: 1.575rem;
   }
 }
 
