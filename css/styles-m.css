@@ -209,6 +209,12 @@ hr {
   font-size: 0.75rem;
 }
 
+.primed {
+  pointer-events: none;
+  opacity: 0.7; /* Real browsers */
+  filter: alpha(opacity = 70); /* MSIE */
+}
+
 /* Screen Size Changes */
 
 @media (min-width:990px) {
@@ -218,6 +224,10 @@ hr {
 
   .ep-title, .ep-img{
     pointer-events: all;
+  }
+
+  .primed {
+    pointer-events: none;
   }
 
   .bottom-container-m {
