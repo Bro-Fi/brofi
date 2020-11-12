@@ -228,6 +228,8 @@ hr {
 
   .primed {
     pointer-events: none;
+    opacity: 0.7; /* Real browsers */
+    filter: alpha(opacity = 70); /* MSIE */
   }
 
   .bottom-container-m {
@@ -310,7 +312,12 @@ hr {
   .ep-img {
     width: 4.5rem;
     height: 4.5rem;
-    /* margin-left: 0; */
+  }
+
+  .primed {
+    pointer-events: none;
+    opacity: 0.7; /* Real browsers */
+    filter: alpha(opacity = 70); /* MSIE */
   }
 }
 
