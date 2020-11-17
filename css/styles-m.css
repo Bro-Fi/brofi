@@ -4,7 +4,7 @@ body {
   font-family: 'Comfortaa', serif;
   color: #29d5eb;
   background-color: #1b1737;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 h2, h3, a {
@@ -239,7 +239,7 @@ hr {
 
 @media (max-width: 990px) {
   .epi-row {
-    width: 700px;
+    width: 800px;
     text-align: center;
     border-style: solid;
     padding: 1rem 0.5rem;
@@ -296,6 +296,14 @@ hr {
     height: 2.925rem;
     width: 2.925rem;
     margin-bottom: 1.575rem;
+  }
+
+  .profile-header {
+    font-size: 2rem;
+  }
+
+  .profile-desc {
+    font-size: 1.5rem;
   }
 }
 
